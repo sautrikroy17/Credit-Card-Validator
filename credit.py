@@ -20,5 +20,5 @@ def main():
     network = get_card_network(card_number)
     print(f"Format check passed. Detected network: {network}")
 
-if __name__ == "__main__ ":
+if __name__ == " __main__ ":
     main()
