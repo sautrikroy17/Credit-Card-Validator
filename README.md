@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Algorithm-Luhn-blueviolet?style=for-the-badge" alt="Algorithm" />
   <img src="https://img.shields.io/badge/GSSoC'26-Open_Source-orange?style=for-the-badge&logo=girlscript" alt="GSSoC" />
   
@@ -7,16 +7,16 @@
   <br />
 
   <h1>💳 Credit Card Validator</h1>
-  <p><strong>A Lightning-Fast C++ Implementation of the Luhn Algorithm</strong></p>
+  <p><strong>An Elegant, Object-Oriented Python Implementation of the Luhn Algorithm</strong></p>
 </div>
 
 ---
 
 ## 📖 Overview
 
-The **Credit Card Validator** is a highly efficient, terminal-based C++ program designed to validate credit card numbers in real-time. It not only verifies the mathematical authenticity of a card number using the industry-standard **Luhn Algorithm**, but also identifies the card's issuing network (e.g., Visa, MasterCard, American Express).
+The **Credit Card Validator** is a highly efficient, terminal-based Python program designed to validate credit card numbers in real-time. It verifies the mathematical authenticity of a card number using the industry-standard **Luhn Algorithm**, and identifies the card's issuing network (e.g., Visa, MasterCard, American Express).
 
-*A perfect example of low-level string manipulation, algorithmic logic, and performant C++ architecture.*
+*A perfect example of object-oriented design, robust error handling, and clean Python architecture.*
 
 ---
 
@@ -24,7 +24,7 @@ The **Credit Card Validator** is a highly efficient, terminal-based C++ program 
 
 - **✅ Luhn Algorithm Validation:** Computes the checksum mathematically to verify card legitimacy.
 - **🌐 Network Identification:** Automatically detects and displays the card provider based on IIN (Issuer Identification Number) prefixes.
-- **⚡ Zero Dependencies:** Written in pure, standard C++ (C++11 and above).
+- **⚡ OOP Architecture:** Written in standard Python with strict type hinting, docstrings, and a modular class structure.
 - **🛡️ Robust Input Handling:** Gracefully handles invalid characters, spaces, and edge cases in user input.
 
 ---
@@ -40,18 +40,13 @@ The **Credit Card Validator** is a highly efficient, terminal-based C++ program 
 
 ---
 
-## 💻 Compilation & Usage
+## 💻 Usage
 
-This program requires a standard C++ compiler (like `g++` or `clang++`).
+This program requires Python 3.6 or higher.
 
-### 1. Compile the code
+### 1. Run the script
 ```bash
-g++ -std=c++11 -o validator validator.cpp
-```
-
-### 2. Run the executable
-```bash
-./validator
+python3 credit.py
 ```
 *(You will be prompted to enter a credit card number in the terminal)*
 
@@ -62,9 +57,9 @@ g++ -std=c++11 -o validator validator.cpp
 Contributions make the open-source community an amazing place. If you are participating in **GirlScript Summer of Code (GSSoC)** or simply want to improve this tool, please consider contributing!
 
 **Ideas for Contribution:**
-- Add a GUI using Qt or ImGui.
+- Add a GUI using Tkinter or PyQt.
 - Implement file-based batch validation (read from `.txt` or `.csv`).
-- Optimize the core loop for massive datasets.
+- Optimize the core loop for massive datasets using NumPy.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/NewFeature`)
@@ -75,5 +70,5 @@ Contributions make the open-source community an amazing place. If you are partic
 ---
 
 <div align="center">
-  <sub>Built with C++ & ❤️ by Sautrik Roy</sub>
+  <sub>Built with Python & ❤️ by Sautrik Roy</sub>
 </div>
