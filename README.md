@@ -1,9 +1,5 @@
-<div align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Algorithm-Luhn-blueviolet?style=for-the-badge" alt="Algorithm" />
-  <img src="https://img.shields.io/badge/GSSoC'26-Open_Source-orange?style=for-the-badge&logo=girlscript" alt="GSSoC" />
-  
-  <br />
   <br />
 
   <h1>💳 Credit Card Validator</h1>
@@ -52,9 +48,9 @@ python3 credit.py
 
 ---
 
-## 🤝 Contributing (GSSoC Welcome!)
+## 🤝 Contributing
 
-Contributions make the open-source community an amazing place. If you are participating in **GirlScript Summer of Code (GSSoC)** or simply want to improve this tool, please consider contributing!
+Contributions make the open-source community an amazing place. If you want to improve this tool, please consider contributing!
 
 **Ideas for Contribution:**
 - Add a GUI using Tkinter or PyQt.
